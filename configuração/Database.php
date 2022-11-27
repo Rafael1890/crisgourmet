@@ -3,10 +3,10 @@ session_start();
 
 class Database{
 	
-	private $host  = 'localhost';
-    private $user  = 'root';
-    private $password   = "";
-    private $database  = "cardapio"; 
+	private $host  = 'msdocs-laravel-mysql-crsgourmet-server.postgres.database.azure.com';
+    private $user  = 'rqxthxowkx';
+    private $password   = "485Y367VUF761R13$";
+    private $database  = "postgres"; 
     
     public function getConexao(){		
 		$con = new mysqli($this->host, $this->user, $this->password, $this->database);
