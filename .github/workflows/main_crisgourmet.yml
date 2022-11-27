@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'crisgourmet'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C0D42DA8888B4C85B310AA10855DABC8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_633B8E7DEA344EBFBD336131B78DF4FB }}
           package: .
